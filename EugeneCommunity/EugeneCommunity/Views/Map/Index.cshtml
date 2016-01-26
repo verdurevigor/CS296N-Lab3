@@ -1,0 +1,37 @@
+﻿
+@{
+    ViewBag.Title = "Map";
+}
+
+<h2>Map of Eugene Breweries</h2>
+<p class="lead">The city of Eugene has much to explore - both inside from the heart and beyond city limits!</p>
+
+<iframe id="googlemap" src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d11470.521044942194!2d-123.10332455343028!3d44.049692608640186!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbreweries!5e0!3m2!1sen!2sus!4v1453355934630" 
+        width="800" height="600" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
+
+
+<script type="text/javascript">
+    // Add jQuery package with NuGet to dynamically change iframe size depending on browser window size.
+$(document).ready(function() {
+
+    var width = $(window).width();
+
+    if (width < 975)
+    {
+        document.getElementById("googlemap").style.width = "600";
+        document.getElementById("googlemap").style.height = "350";
+    }
+});
+
+
+$(window).resize(function () {
+
+    var width = $(window).width();
+
+    if (width < 975) {
+        document.getElementById("googlemap").style.width = "600";
+        document.getElementById("googlemap").style.height = "350";
+    }
+});
+</script>
