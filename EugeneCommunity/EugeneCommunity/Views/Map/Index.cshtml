@@ -12,26 +12,41 @@
 
 
 <script type="text/javascript">
-    // Add jQuery package with NuGet to dynamically change iframe size depending on browser window size.
-$(document).ready(function() {
+    // Resize map to appropriately fit window size for all devices.
+    // This will aid scrolling on mobile devices (map won't take up screen and screen scroll capability)
+    // Checks windows size on load and on resize.
+$(document).ready(function() {                                                  // UPDATE SO MAP WILL SHRINK ON RESIZE AS WELL.
 
     var width = $(window).width();
 
-    if (width < 975)
-    {
-        document.getElementById("googlemap").style.width = "600";
-        document.getElementById("googlemap").style.height = "350";
+    var width = $(window).width();
+
+    if (width < 975) {
+        console.log("Screen resized to less than 975");
+        $("#googlemap").width(600).height(350);
+    }
+    if (width < 650) {
+        $("#googlemap").width(400).height(400);
+    }
+    if (width < 450) {
+        $("#googlemap").width(250).height(300);
     }
 });
-
 
 $(window).resize(function () {
 
     var width = $(window).width();
 
     if (width < 975) {
-        document.getElementById("googlemap").style.width = "600";
-        document.getElementById("googlemap").style.height = "350";
+        console.log("Screen resized to less than 975");
+        $("#googlemap").width(600).height(350);
     }
+    if (width < 650) {
+        $("#googlemap").width(400).height(400);
+    }
+    if (width < 450) {
+        $("#googlemap").width(250).height(300);
+    }
+    
 });
 </script>

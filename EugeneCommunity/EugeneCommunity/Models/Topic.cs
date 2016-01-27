@@ -7,7 +7,14 @@ namespace EugeneCommunity.Models
 {
     public class Topic
     {
+        private List<Message> posts = new List<Message>();
         public virtual int TopicId { get; set; }
         public virtual string Name { get; set; }
+        
+        // Implement later.
+        public List<Message> Posts
+        {
+            get { return posts; }
+        }
     }
 }
