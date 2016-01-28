@@ -11,7 +11,7 @@ namespace EugeneCommunity.Models
         public virtual int TopicId { get; set; }
         public virtual string Name { get; set; }
         
-        // Implement later.
+        
         public List<Message> Posts
         {
             get { return posts; }

@@ -82,3 +82,6 @@ C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\Eugene
 C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.csprojResolveAssemblyReference.cache
 C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.dll
 C:\Users\Brody\Documents\Lane 2015-16\Winter\CS296N\Week3\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.pdb
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.csprojResolveAssemblyReference.cache
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.dll
+C:\Users\Brody\Documents\GitHub\CS296N-Lab3\EugeneCommunity\EugeneCommunity.Tests\obj\Debug\EugeneCommunity.Tests.pdb
